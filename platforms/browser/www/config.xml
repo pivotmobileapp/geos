@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="01" id="com.paycart" version="1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>PayCart</name>
+<widget android-versionCode="1" id="com.paymeal.geos" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Geos</name>
     <description>
-        PayCart Grocery Delivery
+        Geo's Antigua
     </description>
     <author email="pivotdesignmedia@gmail.com" href="http://cordova.io">
-        PayCart.app
+        Geos.app
     </author>
     <content src="index.html" />
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
@@ -16,7 +16,7 @@
     <gap:plugin name="cordova-plugin-device" source="npm" />
     <gap:plugin name="cordova-plugin-media" source="npm" spec="5.0.2" />
     <gap:plugin name="phonegap-plugin-push" source="npm" spec="2.1.2" />
-    <gap:plugin name="cordova.plugins.diagnostic" source="npm" spec="5.0.1" />
+    <gap:plugin name="cordova.plugins.diagnostic" source="npm" spec="4.0.0" />
     <gap:plugin name="cordova-plugin-buildinfo" source="npm" spec="2.0.1" />
     <gap:plugin name="cordova-plugin-request-location-accuracy_sayeh" source="npm" spec="2.2.2" />
     <gap:plugin name="cordova-plugin-camera" source="npm" spec="2.4.1" />
@@ -35,31 +35,31 @@
         </application>
     </gap:config-file>
     <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
-        <string>Enable PayCart to access your camera to take photos of you and to save as profile picture.</string>
+        <string>Enable Geos to access your camera to take photos of you and to save as profile picture.</string>
     </edit-config>
     <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription">
-        <string>Enable PayCart to access your photo library to get pictures from there.</string>
+        <string>Enable Geos to access your photo library to get pictures from there.</string>
     </edit-config>
     <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
-        <string>This allows us to use your location to find supermarket nearby.</string>
+        <string>This allows us to use your location to provide and to facilitate more accurately, keeping you in the loop about Geos.</string>
     </edit-config>
     <edit-config file="*-Info.plist" mode="merge" target="NSLocationAlwaysAndWhenInUseUsageDescription">
-        <string>This allows us to use your location to provide and to facilitate more accurately, keeping you in the loop about PayCart.</string>
+        <string>This allows us to use your location to provide and to facilitate more accurately, keeping you in the loop about Geos.</string>
     </edit-config>
     <edit-config file="*-Info.plist" mode="merge" target="NSLocationAlwaysUsageDescription">
-        <string>This allows us to use your location to find supermarket nearby.</string>
+        <string>This allows us to use your location to provide and to facilitate more accurately, keeping you in the loop about Geos.</string>
     </edit-config>
     <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryAddUsageDescription">
-        <string>Enable PayCart to access your photo library to save pictures there.</string>
+        <string>Enable Geos to access your photo library to save pictures there.</string>
     </edit-config>
     <edit-config file="*-Info.plist" mode="merge" target="NSMicrophoneUsageDescription">
-        <string>PayCart need microphone access to record sounds</string>
+        <string>Geos need microphone access to record sounds</string>
     </edit-config>
     <edit-config file="*-Info.plist" mode="merge" target="NSBluetoothAlwaysUsageDescription">
-        <string>This allows us to facilitate more supermarket</string>
+        <string>This allows us to facilitate more accuracy</string>
     </edit-config>
     <edit-config file="*-Info.plist" mode="merge" target="NSBluetoothPeripheralUsageDescription">
-        <string>Improve location accuracy when finding nearby supermarket</string>
+        <string>Improve location accuracy when ordering</string>
     </edit-config>
     <preference name="orientation" value="portrait" />
     <preference name="AutoHideSplashScreen" value="false" />

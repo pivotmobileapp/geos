@@ -9,7 +9,7 @@
                 "parents": {
                     "NSCameraUsageDescription": [
                         {
-                            "xml": "<string>Enable PayCart to access your camera to take photos of you and to save as profile picture.</string>",
+                            "xml": "<string>Enable Geos to access your camera to take photos of you and to save as profile picture.</string>",
                             "count": 1,
                             "mode": "merge",
                             "id": "config.xml"
@@ -17,7 +17,7 @@
                     ],
                     "NSPhotoLibraryUsageDescription": [
                         {
-                            "xml": "<string>Enable PayCart to access your photo library to get pictures from there.</string>",
+                            "xml": "<string>Enable Geos to access your photo library to get pictures from there.</string>",
                             "count": 1,
                             "mode": "merge",
                             "id": "config.xml"
@@ -25,7 +25,7 @@
                     ],
                     "NSLocationWhenInUseUsageDescription": [
                         {
-                            "xml": "<string>This allows us to use your location to find supermarket nearby.</string>",
+                            "xml": "<string>This allows us to use your location to provide and to facilitate more accurately, keeping you in the loop about Geos.</string>",
                             "count": 1,
                             "mode": "merge",
                             "id": "config.xml"
@@ -33,7 +33,7 @@
                     ],
                     "NSLocationAlwaysAndWhenInUseUsageDescription": [
                         {
-                            "xml": "<string>This allows us to use your location to provide and to facilitate more accurately, keeping you in the loop about PayCart.</string>",
+                            "xml": "<string>This allows us to use your location to provide and to facilitate more accurately, keeping you in the loop about Geos.</string>",
                             "count": 1,
                             "mode": "merge",
                             "id": "config.xml"
@@ -41,7 +41,7 @@
                     ],
                     "NSLocationAlwaysUsageDescription": [
                         {
-                            "xml": "<string>This allows us to use your location to find supermarket nearby.</string>",
+                            "xml": "<string>This allows us to use your location to provide and to facilitate more accurately, keeping you in the loop about Geos.</string>",
                             "count": 1,
                             "mode": "merge",
                             "id": "config.xml"
@@ -49,7 +49,7 @@
                     ],
                     "NSPhotoLibraryAddUsageDescription": [
                         {
-                            "xml": "<string>Enable PayCart to access your photo library to save pictures there.</string>",
+                            "xml": "<string>Enable Geos to access your photo library to save pictures there.</string>",
                             "count": 1,
                             "mode": "merge",
                             "id": "config.xml"
@@ -57,7 +57,7 @@
                     ],
                     "NSMicrophoneUsageDescription": [
                         {
-                            "xml": "<string>PayCart need microphone access to record sounds</string>",
+                            "xml": "<string>Geos need microphone access to record sounds</string>",
                             "count": 1,
                             "mode": "merge",
                             "id": "config.xml"
@@ -65,7 +65,7 @@
                     ],
                     "NSBluetoothAlwaysUsageDescription": [
                         {
-                            "xml": "<string>This allows us to facilitate more supermarket</string>",
+                            "xml": "<string>This allows us to facilitate more accuracy</string>",
                             "count": 1,
                             "mode": "merge",
                             "id": "config.xml"
@@ -73,7 +73,7 @@
                     ],
                     "NSBluetoothPeripheralUsageDescription": [
                         {
-                            "xml": "<string>Improve location accuracy when finding nearby supermarket</string>",
+                            "xml": "<string>Improve location accuracy when ordering</string>",
                             "count": 1,
                             "mode": "merge",
                             "id": "config.xml"
