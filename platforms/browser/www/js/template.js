@@ -932,6 +932,13 @@ var displayCartDetails = function(datas){
 		   html+= twoColumn( t('Packaging'),  prettyPrice(data.total.merchant_packaging_charge) );
 		}
 	}
+	//if service fee have
+	if (!empty(data.total.service_fee_value)){
+		if(data.total.service_fee_value>0.0001){
+			var per = data.total.service_fee_percentage.replace('%','');
+		   html+= twoColumn(  t('Service Fee') + " " + (parseInt(per)) + "%",  prettyPrice(data.total.service_fee_value) );
+		}
+	}
 	
 	if(!is_apply_tax){
 		if (!empty(data.total.taxable_total)){
